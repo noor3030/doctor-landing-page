@@ -1,18 +1,21 @@
 <template>
   <div>
     <nav
-      class="w-full py-4 px-8 bg-[#cefbfe] grid grid-cols-2 content-center justify-center"
+      class="w-full py-4 px-8 bg-[#cefbfe] grid grid-cols-3 content-center justify-center"
     >
-      <img src="../public/logos/logo.png" class="w-16 h-16" />
-      <div class="flex space-x-5 text-xl justify-center content-center">
+      <img src="../public/logos/logo.png" class="w-16 h-16 justify-start" />
+      <div
+        class="flex space-x-5 text-xl justify-center content-center self-center"
+      >
         <a>الصفحة الرئيسية</a>
         <a>حول </a>
         <a>خدماتنا</a>
         <a>الاخبار</a>
         <a>تواصل معنا</a>
-        <!-- add search icon -->
+      </div>
+      <div class="flex space-x-5 justify-end">
         <svg
-          class="w-4 h-4 text-gray-500 dark:text-gray-400 self-center"
+          class="w-8 h-8 text-gray-500 dark:text-gray-400 self-center"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -27,7 +30,7 @@
           />
         </svg>
         <svg
-          class="w-[18px] h-[18px] text-gray-500 dark:text-white self-center"
+          class="w-8 h-8 text-gray-500 dark:text-white self-center"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
