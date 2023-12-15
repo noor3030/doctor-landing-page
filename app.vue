@@ -1,5 +1,5 @@
 <template>
-  <div class="text-right scroll-auto">
+  <div class=" scroll-auto">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>

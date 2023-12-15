@@ -1,6 +1,7 @@
 <template>
-  <div>
+  <div dir="rtl">
     <Navbar></Navbar>
+    <AppBar></AppBar>
   </div>
 </template>
 
