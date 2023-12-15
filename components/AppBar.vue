@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2 p-16">
+  <div class="grid grid-cols-2 pt-16 px-16 ">
     <div class="text-section justify-start content-start flex flex-col">
       <div class="text-5xl flex row space-x-5 font-bold">
         <h1 class="ml-4">ابحث عن</h1>
@@ -20,7 +20,7 @@
         </button>
       </div>
     </div>
-    <div class="image-section flex flex-col justify-start content-start">
+    <div class="image-section flex flex-col justify-start content-start mb-0">
       <img
         src="../public/doctors-images/appbar-image.png"
         alt=""
