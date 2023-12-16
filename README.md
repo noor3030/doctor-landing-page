@@ -73,3 +73,14 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+
+
+
+
+
+التخصص : Specialization
+نوع العلاج: Type of treatment
+التقييم: rate
+الصورة: image

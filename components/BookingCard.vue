@@ -2,11 +2,11 @@
 
     <div class="flex content-center justify-center self-center">
         <div
-    class="bg-[#00c8d5] -mt-32 px-16 mx-16 py-6 text-[#ffff] w-full"
+    class="bg-[#00c8d5] -mt-32 px-16 mx-16 py-6 text-[#ffff] w-full "
   >
-    <h1 class="text-3xl font-bold">أكد حجزك الان</h1>
+    <h1 class="text-3xl font-bold text-center">أكد حجزك الان</h1>
 
-    <div class="flex gap-x-8">
+    <div class="flex gap-x-12 content-center justify-center">
       <!-- phone -->
       <div class="flex">
         <div
@@ -102,7 +102,7 @@
       </div>
     </div>
 
-    <div class="flex gap-x-5">
+    <div class="flex gap-x-5 content-center justify-center">
       <div class="flex -space-x-4 rtl:space-x-reverse mt-7">
         <img
           class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
