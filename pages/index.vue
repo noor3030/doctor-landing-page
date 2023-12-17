@@ -4,6 +4,7 @@
     <AppBar></AppBar>
     <BookingCard></BookingCard>
     <Treatments></Treatments>
+    <AboutUs></AboutUs>
   </div>
 </template>
 

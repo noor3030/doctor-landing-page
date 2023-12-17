@@ -1,12 +1,12 @@
 <template>
-  <div class="p-16 text-center bg-[#f1fbfc] mt-16">
+  <div class="p-16 text-center bg-[#f1fbfc]  flex flex-col gap-y-10">
     <h1
-      class="mb-12 text-4xl font-bold bg-gradient-to-l from-[#0d1c3e] from-10% to-[#00c8d5] to-90% bg-clip-text text-transparent"
+      class="p-2 text-5xl font-bold bg-gradient-to-l from-[#0d1c3e] from-10% to-[#00c8d5] to-90% bg-clip-text text-transparent"
     >
       العلاجات الاكثر شعبية لدينا
     </h1>
 
-    <div class="flex justify-center content-center gap-x-8">
+    <div class="flex justify-between content-between">
       <TreatmentCard
         specialization="قلع الاسنان"
         typeOfTreatment="علاج الاسنان"
