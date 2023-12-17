@@ -13,19 +13,32 @@
         والحجز المباشر الالكتروني
       </p>
 
-      <div class="flex flex-col">
-       
-
+      <div class="flex flex-col pt-8 gap-y-5">
+        <AboutUsIcons
+          name="الاطباء"
+          description="  افضل الاطباء والاخصائيين  في مختلف التخصصات"
+          icon="../icons/doctor.svg"
+        />
+        <AboutUsIcons
+          name="العيادات"
+          description="افضل العيادات والمراكز الطبية في مختلف التخصص"
+          icon="../icons/clinic.svg"
+        />
+        <AboutUsIcons
+          name="المجمعات الطبية"
+          description="مجمعات طبية متكاملة تضم افضل الاطباء والعيادات"
+          icon="../icons/medical-complexes.svg"
+        />
+        <AboutUsIcons
+          name="المختبرات"
+          description="مختبرات متخصصة ومجهزة بأحدث الاجهزة والتقنيات"
+          icon="../icons/needle.svg"
+        />
       </div>
 
-      <!-- <p class="text-xl text-[#646566]">
-        اضف عيادتك الان واجعلها متاحة للمرضى للحجز المباشر والوصول اليها بسهولة
-      </p> -->
-      <!-- <button
-        class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 rounded-lg text-2xl px-5 py-2 mt-10"
-      >
-        اضف عيادتك الان
-      </button> -->
+    
+
+  
     </div>
     <div class="img-section">
       <img
