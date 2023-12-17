@@ -5,8 +5,8 @@
     <BookingCard></BookingCard>
     <Treatments></Treatments>
     <AboutUs></AboutUs>
+    <OurServices></OurServices>
   </div>
 </template>
 
-<script>
-</script>
+<script></script>
