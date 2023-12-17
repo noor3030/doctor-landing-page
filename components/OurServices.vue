@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-16"
+    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-16 h-fit"
     style="background-image: url(../doctors-images/background.png)"
   >
     <h1 class="text-5xl text-[#00c8d5] text-center">الخدمات</h1>

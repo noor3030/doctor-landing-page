@@ -6,6 +6,7 @@
     <Treatments></Treatments>
     <AboutUs></AboutUs>
     <OurServices></OurServices>
+    <Advertisement></Advertisement>
   </div>
 </template>
 
