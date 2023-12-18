@@ -24,7 +24,7 @@ const props = defineProps({
     </div>
 
     <h1 class="font-bold text-2xl">{{ name }}</h1>
-    <p class="text-xl">
+    <p class="text-xl line-clamp-1">
       {{ description }}
     </p>
   </div>

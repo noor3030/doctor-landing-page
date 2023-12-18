@@ -9,6 +9,7 @@
       <h1 class="text-[#00c8d5]">الاكثر</h1>
       <h1 class="text-[#0d1c3e]">تقييما</h1>
     </div>
+
     <div class="flex justify-center gap-x-5 gap-y-5 mt-10">
       <DoctorCard
         name="د. محمد عبد الرحمن"

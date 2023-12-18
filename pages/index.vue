@@ -8,6 +8,7 @@
     <OurServices></OurServices>
     <Advertisement></Advertisement>
     <Doctors></Doctors>
+    <Articles></Articles>
   </div>
 </template>
 

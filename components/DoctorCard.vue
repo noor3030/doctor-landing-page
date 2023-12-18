@@ -20,9 +20,10 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="bg-[#ffff] flex flex-col justify-center content-center text-center p-5 rounded-lg"
+    class="bg-[#ffff] flex flex-col justify-center content-center text-center p-5 rounded-lg  gap-y-4"
   >
     <img :src="image" class="self-center rounded-lg" />
+  
     <h1 class="text-2xl font-bold text-[#0d1c3e]">{{ name }}</h1>
     <h1 class="text-xl text-[#0d1c3e]">{{ specialty }}</h1>
     <div class="flex justify-center content-center gap-x-1">
