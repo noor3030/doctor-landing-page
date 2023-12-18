@@ -6,6 +6,7 @@
   </div>
 </template>
 
+
 <style>
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap");
 
@@ -15,3 +16,4 @@ body {
   scroll-behavior: smooth;
 }
 </style>
+

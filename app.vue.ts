@@ -32,8 +32,8 @@ __VLS_components.NuxtPage;
 {
 const __VLS_0 = __VLS_intrinsicElements["div"];
 const __VLS_1 = __VLS_elementAsFunctionalComponent(__VLS_0);
-const __VLS_2 = __VLS_1({ ...{ }, class: ("text-right scroll-auto"), }, ...__VLS_functionalComponentArgsRest(__VLS_1));
-({} as (props: __VLS_FunctionalComponentProps<typeof __VLS_0, typeof __VLS_2> & Record<string, unknown>) => void)({ ...{ }, class: ("text-right scroll-auto"), });
+const __VLS_2 = __VLS_1({ ...{ }, class: (" scroll-auto"), }, ...__VLS_functionalComponentArgsRest(__VLS_1));
+({} as (props: __VLS_FunctionalComponentProps<typeof __VLS_0, typeof __VLS_2> & Record<string, unknown>) => void)({ ...{ }, class: (" scroll-auto"), });
 const __VLS_3 = __VLS_pickFunctionalComponentCtx(__VLS_0, __VLS_2)!;
 let __VLS_4!: __VLS_NormalizeEmits<typeof __VLS_3.emit>;
 {

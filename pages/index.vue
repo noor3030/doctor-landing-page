@@ -7,6 +7,7 @@
     <AboutUs></AboutUs>
     <OurServices></OurServices>
     <Advertisement></Advertisement>
+    <Doctors></Doctors>
   </div>
 </template>
 
