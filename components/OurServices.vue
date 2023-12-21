@@ -10,7 +10,7 @@
       <h1 class="text-[#0d1c3e]">الجودة</h1>
     </div>
 
-    <div class="flex gap-x-6 justify-center content-center mt-10">
+    <div class="flex gap-x-10 justify-center content-center mt-10">
       <ServiceCard
         name="الحجز الالكتروني"
         description="احجز موعدك الان بكل سهولة ويسر"

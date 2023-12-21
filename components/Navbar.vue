@@ -5,13 +5,11 @@
 
       <div class="flex gap-x-2 text-xl self-center col-span-2">
         <a href="#home" class="hover:bg-white rounded-lg p-2"> الرئيسية</a>
-        <a href="#booking" class="hover:bg-white rounded-lg p-2">الحجز</a>
+       
         <a href="#treatment" class="hover:bg-white rounded-lg p-2">العلاجات</a>
         <a href="#about-us" class="hover:bg-white rounded-lg p-2">من نحن </a>
         <a href="#service" class="hover:bg-white rounded-lg p-2">الخدمات</a>
-        <a href="#add-clinic" class="hover:bg-white rounded-lg p-2"
-          >اضف عيادتك</a
-        >
+       
         <a href="#doctors" class="hover:bg-white rounded-lg p-2">الاطباء</a>
         <a href="#articles" class="hover:bg-white rounded-lg p-2">المدونات </a>
         <a href="contact-us" class="hover:bg-white rounded-lg p-2"
