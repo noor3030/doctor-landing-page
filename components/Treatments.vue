@@ -1,10 +1,15 @@
 <template>
-  <div class="p-16 text-center bg-[#f1fbfc]  flex flex-col gap-y-10">
-    <h1
-      class="p-2 text-5xl font-bold bg-gradient-to-l from-[#0d1c3e] from-10% to-[#00c8d5] to-90% bg-clip-text text-transparent"
+  <div
+    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-16 h-fit"
+    style="background-image: url(../doctors-images/background.png)"
+  >
+    <div
+      class="flex text-5xl gap-x-3 font-bold text-center justify-center mb-16"
     >
-      العلاجات الاكثر شعبية لدينا
-    </h1>
+      <h1 class="text-[#0d1c3e]">العلاجات</h1>
+      <h1 class="text-[#00c8d5]">الاكثر شعبية</h1>
+      <h1 class="text-[#0d1c3e]">لدينا</h1>
+    </div>
 
     <div class="flex justify-between content-between">
       <TreatmentCard
