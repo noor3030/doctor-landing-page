@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col p-16 mt-16" id="home">
+  <div class="flex flex-col p-16 mt-20" id="home">
     <div class="grid grid-cols-2">
       <div class="text-section justify-start content-start flex flex-col">
         <div class="text-5xl flex font-bold gap-x-4">
@@ -21,9 +21,13 @@
           المتوفرة حصريا داخل العراق!
         </p>
 
-        <div class="flex actions gap-x-2">
-          <img src="../public/app-store.svg" alt="" class="w-1/4" />
-          <img src="../public/google-play.svg" alt="" class="w-1/4" />
+        <div class="flex actions gap-x-4">
+          <a href="" class="w-1/4">
+            <img src="../public/app-store.svg" alt=""
+          /></a>
+          <a href="" class="w-1/4">
+            <img src="../public/google-play.svg" alt="" />
+          </a>
         </div>
       </div>
       <div
