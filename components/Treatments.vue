@@ -2,6 +2,7 @@
   <div
     class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-16 h-fit"
     style="background-image: url(../doctors-images/background.png)"
+    id="treatment"
   >
     <div
       class="flex text-5xl gap-x-3 font-bold text-center justify-center mb-16"

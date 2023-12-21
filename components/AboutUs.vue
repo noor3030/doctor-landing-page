@@ -1,5 +1,5 @@
 <template>
-  <div class="flex p-16 justify-between content-between">
+  <div class="flex p-16 justify-between content-between" id="about-us">
     <div class="text-section flex flex-col gap-y-3">
       <h1 class="text-5xl text-[#00c8d5]">من نحن</h1>
       <div class="flex text-5xl gap-x-3 font-bold">
@@ -35,12 +35,8 @@
           icon="../icons/needle.svg"
         />
       </div>
-
-    
-
-  
     </div>
-    <div class="img-section">
+    <div class="img-section flex justify-end content-end">
       <img
         src="../public/doctors-images/about-image.png"
         alt="about-us"
