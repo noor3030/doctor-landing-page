@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#00c8d5] py-10 text-[#ffff] w-full flex flex-col gap-y-5">
+  <div class="bg-[#00c8d5] py-10 text-[#ffff] w-full flex flex-col gap-y-14 rounded-lg">
     <h1 class="text-4xl font-bold text-center">أكد حجزك الان</h1>
 
     <div class="flex gap-x-12 content-center justify-center">
@@ -26,7 +26,7 @@
     </div>
 
     <div class="flex gap-x-5 content-center justify-center">
-      <div class="flex -space-x-8 rtl:space-x-reverse mt-7">
+      <div class="flex -space-x-8 rtl:space-x-reverse ">
         <div v-for="(item, index) in 10" :key="index">
           <img
             width="60"
@@ -36,7 +36,7 @@
           />
         </div>
       </div>
-      <p class="text-xl self-center mt-5">
+      <p class="text-xl self-center">
         <b>+300</b>
         تأكيد حجز المواعيد لهذا الأسبوع
       </p>
