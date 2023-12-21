@@ -9,6 +9,7 @@
     <Advertisement></Advertisement>
     <Doctors></Doctors>
     <Articles></Articles>
+    <Footer></Footer>
   </div>
 </template>
 
