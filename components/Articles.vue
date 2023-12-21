@@ -1,5 +1,5 @@
 <template>
-  <div class="p-16">
+  <div class="p-16" id="articles">
     <h1 class="text-4xl text-[#00c8d5] text-center mb-2">الاخبار والمدونات</h1>
 
     <h1 class="text-[#0d1c3e] text-5xl font-bold text-center">

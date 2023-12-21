@@ -2,6 +2,7 @@
   <div
     class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-16 mt-16"
     style="background-image: url(../doctors-images/background.png)"
+    id="doctors"
   >
     <h1 class="text-5xl text-[#00c8d5] text-center">الاطباء</h1>
     <div class="flex text-5xl gap-x-3 font-bold text-center justify-center">

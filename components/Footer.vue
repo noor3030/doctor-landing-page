@@ -1,84 +1,127 @@
 <template>
-  <div
-    class="bg-[#081839] bottom-0 mt-16 flex text-white justify-between content-between p-24"
-  >
-    <div class="flex flex-col gap-y-5">
-      <div class="flex gap-2">
-        <img src="../public/logos/logo.png" class="w-16 h-16" />
-        <h1 class="self-center text-3xl font-bold">تطبيق صحتي</h1>
-      </div>
-      <h1 class="text-lg">
-        تطبيق صحتي هو تطبيق يساعدك على الحصول على الخدمات الطبية بكل سهولة ويسر
-      </h1>
-      <h1 class="text-2xl">تابعنا</h1>
-      <div class="flex gap-3">
-        <img
-          width="30"
-          height="30"
-          src="https://img.icons8.com/ios-glyphs/30/FFFFFF/facebook-new.png"
-          alt="facebook-new"
-        />
-        <img
-          width="30"
-          height="30"
-          src="https://img.icons8.com/ios-glyphs/30/FFFFFF/instagram-new.png"
-          alt="instagram-new"
-        />
-        <img
-          width="30"
-          height="30"
-          src="https://img.icons8.com/ios-glyphs/30/FFFFFF/twitter.png"
-          alt="twitter"
-        />
-        <img
-          width="30"
-          height="30"
-          src="https://img.icons8.com/ios-glyphs/30/FFFFFF/youtube-play.png"
-          alt="youtube-play"
-        />
-      </div>
-    </div>
+  <div class="bg-[#081839] bottom-0 mt-16 text-white p-20">
+    <img src="../public/logos/slogan.svg" class="w-36 h-36" />
+    <div class="grid grid-cols-4 gap-x-12">
+      <div class="flex flex-col">
+        <h1 class="text-xl">
+          استمتع بتجربة طبية فريدة مع تطبيقنا الحصري الاول من نوعه وميزاته
+          الفريدة تحكم في صحتك بكل سهولة
+        </h1>
 
-    <div class="flex flex-col gap-y-5">
-      <h1 class="text-2xl font-bold">روابط سريعة</h1>
-      <h1 class="text-lg">الرئيسية</h1>
-      <h1 class="text-lg">الخدمات</h1>
-      <h1 class="text-lg">المقالات</h1>
-      <h1 class="text-lg">الأطباء</h1>
-    </div>
+        <h1 class="text-2xl mt-10">تابعنا</h1>
+        <div class="flex gap-3 pt-2">
+          <a href="" class="hover:bg-[#00c8d5] rounded-full p-1">
+            <img
+              width="50"
+              height="50"
+              src="https://img.icons8.com/ios-glyphs/50/FFFFFF/facebook-new.png"
+              alt="facebook-new"
+          /></a>
+          <a href="" class="hover:bg-[#00c8d5] rounded-full p-1"
+            ><img
+              width="50"
+              height="50"
+              src="https://img.icons8.com/ios-glyphs/50/FFFFFF/instagram-new.png"
+              alt="instagram-new"
+          /></a>
+          <a href="" class="hover:bg-[#00c8d5] rounded-full p-1">
+            <img
+              width="50"
+              height="50"
+              src="https://img.icons8.com/ios-glyphs/50/FFFFFF/twitter.png"
+              alt="twitter"
+          /></a>
 
-    <div class="flex flex-col gap-y-5">
-      <h1 class="text-2xl font-bold">تواصل معنا</h1>
-      <div class="flex gap-x-2">
-        <h1 class="text-lg">07700000000</h1>
-        <img
-          width="28"
-          height="28"
-          src="https://img.icons8.com/ios/30/FFFFFF/phone--v1.png"
-          alt="phone--v1"
-        />
+          <a href="" class="hover:bg-[#00c8d5] rounded-full p-1">
+            <img
+              width="50"
+              height="50"
+              src="https://img.icons8.com/ios-glyphs/50/FFFFFF/youtube-play.png"
+              alt="youtube-play"
+          /></a>
+        </div>
       </div>
 
-      <div class="flex gap-x-2">
-        <a href="mailto:doctors@gmail.com">
-          <h1 class="text-lg">doctors@gmail.com</h1>
+      <div class="flex flex-col gap-y-5">
+        <h1 class="text-2xl font-bold">روابط سريعة</h1>
+        <a
+          href="#home"
+          class="hover:bg-[#00c8d5] text-start px-1 rounded-lg text-xl w-fit"
+        >
+          الرئيسية</a
+        >
+
+        <a
+          href="#treatment"
+          class="hover:bg-[#00c8d5] text-start px-1 rounded-lg text-xl w-fit"
+          >العلاجات</a
+        >
+        <a
+          href="#about-us"
+          class="hover:bg-[#00c8d5] text-start px-1 rounded-lg text-xl w-fit"
+          >من نحن
         </a>
-        <img
-          width="28"
-          height="28"
-          src="https://img.icons8.com/ios/30/FFFFFF/email.png"
-          alt="email"
-        />
+        <a
+          href="#service"
+          class="hover:bg-[#00c8d5] text-start px-1 rounded-lg text-xl w-fit"
+          >الخدمات</a
+        >
+
+        <a
+          href="#doctors"
+          class="hover:bg-[#00c8d5] text-start px-1 rounded-lg text-xl w-fit"
+          >الاطباء</a
+        >
+        <a
+          href="#articles"
+          class="hover:bg-[#00c8d5] text-start px-1 rounded-lg text-xl w-fit"
+          >المدونات
+        </a>
       </div>
 
-      <div class="flex gap-x-2">
-        <h1 class="text-lg">العراق - بغداد</h1>
-        <img
-          width="28"
-          height="28"
-          src="https://img.icons8.com/ios/30/FFFFFF/worldwide-location--v1.png"
-          alt="worldwide-location--v1"
-        />
+      <div class="flex flex-col gap-y-5">
+        <h1 class="text-2xl font-bold">تواصل معنا</h1>
+        <div class="flex gap-x-2">
+          <h1 class="text-lg">07700000000</h1>
+          <img
+            width="28"
+            height="28"
+            src="https://img.icons8.com/ios/30/FFFFFF/phone--v1.png"
+            alt="phone--v1"
+          />
+        </div>
+
+        <div class="flex gap-x-2">
+          <a href="mailto:doctors@gmail.com">
+            <h1 class="text-lg">doctors@gmail.com</h1>
+          </a>
+          <img
+            width="28"
+            height="28"
+            src="https://img.icons8.com/ios/30/FFFFFF/email.png"
+            alt="email"
+          />
+        </div>
+
+        <div class="flex gap-x-2">
+          <h1 class="text-lg">العراق - بغداد</h1>
+          <img
+            width="28"
+            height="28"
+            src="https://img.icons8.com/ios/30/FFFFFF/worldwide-location--v1.png"
+            alt="worldwide-location--v1"
+          />
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-y-6">
+        <h1 class="text-2xl font-bold">لتحميل التطبيق</h1>
+        <a href="" class="w-1/2">
+          <img src="../public/app-store.svg" alt=""
+        /></a>
+        <a href="" class="w-1/2">
+          <img src="../public/google-play.svg" alt="" />
+        </a>
       </div>
     </div>
   </div>

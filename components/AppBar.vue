@@ -1,7 +1,9 @@
 <template>
   <div class="flex flex-col p-16 mt-20" id="home">
     <div class="grid grid-cols-2">
-      <div class="text-section justify-start content-start flex flex-col">
+      <div
+        class="text-section justify-start content-start flex flex-col gap-y-10"
+      >
         <div class="text-5xl flex font-bold gap-x-4">
           <h1>ابحث عن</h1>
           <h1 class="text-[#00c3d3]">طبيبك</h1>
@@ -9,7 +11,7 @@
           <h1>احجز موعدك</h1>
         </div>
 
-        <p class="mt-10 text-2xl text-[#646566] w-2/3">
+        <p class="text-2xl text-[#646566] w-2/3">
           تطبيقنا الجديد سيحدث ثورة كبيرة في تجربة الرعاية الصحية في العراق!
           يتضمن التطبيق معلومات شاملة عن الأطباء والإختصاصات، وتقييمات المرضى
           تجعل من اختيار الأطباء الأمثل أسهل، والحجز عبر التطبيق والاستشارات على
