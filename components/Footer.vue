@@ -71,17 +71,15 @@
         />
       </div>
 
-        <div class="flex gap-x-2">
-            <h1 class="text-lg">العراق - بغداد</h1>
-            <img
-            width="28"
-            height="28"
-            src="https://img.icons8.com/ios/30/FFFFFF/worldwide-location--v1.png"
-            alt="worldwide-location--v1"
-            />
-        </div>
+      <div class="flex gap-x-2">
+        <h1 class="text-lg">العراق - بغداد</h1>
+        <img
+          width="28"
+          height="28"
+          src="https://img.icons8.com/ios/30/FFFFFF/worldwide-location--v1.png"
+          alt="worldwide-location--v1"
+        />
+      </div>
     </div>
-
-
   </div>
 </template>
