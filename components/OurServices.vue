@@ -1,17 +1,17 @@
 <template>
   <div
-    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-16 h-fit"
+    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat md:p-16 p-6 h-fit"
     style="background-image: url(../doctors-images/background.png)"
     id="service"
   >
-    <h1 class="text-5xl text-[#00c8d5] text-center">الخدمات</h1>
-    <div class="flex text-5xl gap-x-3 font-bold text-center justify-center">
+    <h1 class="md:text-5xl text-3xl text-[#00c8d5] text-center">الخدمات</h1>
+    <div class="flex md:text-5xl text-3xl gap-x-3 font-bold text-center justify-center">
       <h1 class="text-[#0d1c3e]">خدماتنا</h1>
       <h1 class="text-[#00c8d5]">عالية</h1>
       <h1 class="text-[#0d1c3e]">الجودة</h1>
     </div>
 
-    <div class="flex gap-x-10 justify-center content-center mt-10">
+    <div class="md:flex md:gap-x-10 justify-center content-center mt-10 flex-col flex gap-y-10">
       <ServiceCard
         name="الحجز الالكتروني"
         description="احجز موعدك الان بكل سهولة ويسر"
@@ -39,7 +39,7 @@
       />
     </div>
 
-    <div class="flex gap-x-6 justify-center content-center mt-10">
+    <div class="md:flex md:gap-x-10 justify-center content-center mt-10 flex-col flex gap-y-10">
       <ServiceCard
         name="التنبيهات"
         description="تلقي التنبيهات والاشعارات بكل ما هو جديد"
