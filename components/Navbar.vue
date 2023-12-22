@@ -1,11 +1,11 @@
 <template>
   <div class="relative z-50">
     <nav
-      class="py-4 px-16 bg-[#cefbfe] md:grid md:grid-cols-3 w-full fixed top-0 left-0 right-0 hidden"
+      class="py-4 px-8 bg-[#cefbfe] md:grid md:grid-cols-3 w-full fixed top-0 left-0 right-0 hidden"
     >
-      <img src="../public/logos/logo.svg" class="w-16 h-16" />
+      <img src="../public/logos/logo.svg" class="w-12 h-12" />
 
-      <div class="flex gap-x-2 text-xl self-center col-span-2">
+      <div class="flex self-center text-center col-span-2">
         <a href="#home" class="hover:bg-white rounded-lg p-2"> الرئيسية</a>
 
         <a href="#treatment" class="hover:bg-white rounded-lg p-2">العلاجات</a>
@@ -36,12 +36,10 @@
       class="navbar w-full absolute overflow-x-scroll bg-[#cefbfe] top-0 h-screen"
     >
       <div class="flex p-2">
-        <button @click="tog()" class="p-2  text-xl font-bold">
-          &#9747;
-        </button>
+        <button @click="tog()" class="p-2 text-xl font-bold">&#9747;</button>
       </div>
 
-      <ul class="list-none  text-center flex flex-col gap-y-3">
+      <ul class="list-none text-center flex flex-col gap-y-3">
         <li><h1 class="text-xl text-center font-bold">القائمة</h1></li>
         <li>
           <a href="#home"> الرئيسية</a>
