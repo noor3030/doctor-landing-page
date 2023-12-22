@@ -11,7 +11,7 @@
       <h1 class="text-[#0d1c3e]">الجودة</h1>
     </div>
 
-    <div class="md:flex md:gap-x-10 justify-center content-center mt-10 flex-col flex gap-y-10">
+    <div class="md:flex md:gap-x-10 justify-center content-center mt-10 flex-col flex gap-y-5">
       <ServiceCard
         name="الحجز الالكتروني"
         description="احجز موعدك الان بكل سهولة ويسر"
@@ -39,7 +39,7 @@
       />
     </div>
 
-    <div class="md:flex md:gap-x-10 justify-center content-center mt-10 flex-col flex gap-y-10">
+    <div class="md:flex md:gap-x-10 justify-center content-center mt-10 flex-col flex gap-y-5">
       <ServiceCard
         name="التنبيهات"
         description="تلقي التنبيهات والاشعارات بكل ما هو جديد"
