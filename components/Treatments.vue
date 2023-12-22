@@ -5,14 +5,16 @@
     id="treatment"
   >
     <div
-      class="md:flex-row flex-col md:text-5xl text-3xl gap-x-3 font-bold text-center justify-center md:mb-16 pb-5"
+      class="md:flex-row flex flex-col md:text-5xl text-3xl gap-x-3 font-bold text-center justify-center md:mb-16 pb-5"
     >
       <h1 class="text-[#0d1c3e]">العلاجات</h1>
       <h1 class="text-[#00c8d5]">الاكثر شعبية</h1>
       <h1 class="text-[#0d1c3e]">لدينا</h1>
     </div>
 
-    <div class="flex flex-col gap-y-5 justify-center content-center">
+    <div
+      class="flex flex-col gap-y-5 justify-center content-center md:flex-wrap"
+    >
       <TreatmentCard
         specialization="قلع الاسنان"
         typeOfTreatment="علاج الاسنان"
