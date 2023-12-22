@@ -1,17 +1,17 @@
 <template>
-  <div class="flex flex-col p-16 mt-20" id="home">
-    <div class="grid grid-cols-2">
+  <div class="flex flex-col md:p-16 md:mt-20 p-6" id="home">
+    <div class="md:grid md:grid-cols-2">
       <div
-        class="text-section justify-start content-start flex flex-col gap-y-10"
+        class="text-section justify-start content-start text-start flex flex-col gap-y-5"
       >
-        <div class="text-5xl flex font-bold gap-x-4">
+        <div class="md:text-5xl flex font-bold gap-x-2 text-xl">
           <h1>ابحث عن</h1>
           <h1 class="text-[#00c3d3]">طبيبك</h1>
           <h1>&</h1>
           <h1>احجز موعدك</h1>
         </div>
 
-        <p class="text-2xl text-[#646566] w-2/3">
+        <p class="md:text-2xl text-[#646566] md:w-2/3">
           تطبيقنا الجديد سيحدث ثورة كبيرة في تجربة الرعاية الصحية في العراق!
           يتضمن التطبيق معلومات شاملة عن الأطباء والإختصاصات، وتقييمات المرضى
           تجعل من اختيار الأطباء الأمثل أسهل، والحجز عبر التطبيق والاستشارات على
@@ -32,9 +32,7 @@
           </a>
         </div>
       </div>
-      <div
-        class="image-section flex flex-col justify-start content-start h-fit"
-      >
+      <div class="image-section h-fit flex justify-center items-center pt-10">
         <img
           src="../public/doctors-images/appbar-image.png"
           alt=""

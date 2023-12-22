@@ -23,7 +23,7 @@
   <div class="md:hidden">
     <div
       :class="open ? ' opacity-25' : 'opacity-100'"
-      class="flex w-full py-4 px-5 bg-[#cefbfe] justify-between"
+      class="flex w-full py-4 px-6 bg-[#cefbfe] justify-between"
     >
       <img src="../public/logos/slogan.svg" alt="" class="w-1/4" />
 

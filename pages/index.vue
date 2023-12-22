@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl">
+  <div dir="rtl" class=" bg-slate-100">
     <Navbar></Navbar>
     <AppBar></AppBar>
     
