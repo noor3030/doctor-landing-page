@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-[#081839] bottom-0 mt-16 text-white p-20">
+  <div class="bg-[#081839] bottom-0 mt-16 text-white md:p-20 p-6">
     <img src="../public/logos/slogan.svg" class="w-36 h-36" />
-    <div class="grid grid-cols-4 gap-x-12">
+    <div class="md:grid md:grid-cols-4 md:gap-x-12 flex flex-col gap-y-10">
       <div class="flex flex-col">
         <h1 class="text-xl">
           استمتع بتجربة طبية فريدة مع تطبيقنا الحصري الاول من نوعه وميزاته
@@ -79,7 +79,7 @@
         </a>
       </div>
 
-      <div class="flex flex-col gap-y-5">
+      <div class="flex flex-col md:gap-y-5 gap-y-3">
         <h1 class="text-2xl font-bold">تواصل معنا</h1>
         <div class="flex gap-x-2">
           <h1 class="text-lg">07700000000</h1>
