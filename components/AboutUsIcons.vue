@@ -21,9 +21,9 @@ const props = defineProps({
       <img :src="icon" alt="" class="w-10" />
     </div>
 
-    <div class="flex flex-col text-2xl">
-      <h1>{{ name }}</h1>
-      <p class="text-[#646566]">{{ description }}</p>
+    <div class="flex flex-col ">
+      <h1 class="text-2xl">{{ name }}</h1>
+      <p class="text-[#646566] text-base">{{ description }}</p>
     </div>
   </div>
 </template>

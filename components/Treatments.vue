@@ -1,18 +1,18 @@
 <template>
   <div
-    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-16 h-fit"
+    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat md:p-16 h-fit p-6"
     style="background-image: url(../doctors-images/background.png)"
     id="treatment"
   >
     <div
-      class="flex text-5xl gap-x-3 font-bold text-center justify-center mb-16"
+      class="md:flex-row flex-col md:text-5xl text-3xl gap-x-3 font-bold text-center justify-center md:mb-16 pb-5"
     >
       <h1 class="text-[#0d1c3e]">العلاجات</h1>
       <h1 class="text-[#00c8d5]">الاكثر شعبية</h1>
       <h1 class="text-[#0d1c3e]">لدينا</h1>
     </div>
 
-    <div class="flex justify-between content-between">
+    <div class="flex flex-col gap-y-5 justify-center content-center">
       <TreatmentCard
         specialization="قلع الاسنان"
         typeOfTreatment="علاج الاسنان"

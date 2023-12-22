@@ -21,7 +21,7 @@ const props = defineProps({
 
 <template>
   <div
-    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat  p-5 text-white"
+    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-5 text-white self-center"
     :style="`background-image: url(${image}) ; height:300px ; width:300px `"
   >
     <div class="bg-[#0d1c3e] w-fit text-lg p-2 rounded-lg">
