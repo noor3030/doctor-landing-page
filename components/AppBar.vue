@@ -4,13 +4,16 @@
       <div
         class="text-section justify-start content-start text-start flex flex-col gap-y-5"
       >
-        <div class="md:text-5xl flex font-bold gap-x-2 text-xl">
+        <div class="md:text-5xl md:flex font-bold gap-x-2 text-xl hidden">
           <h1>ابحث عن</h1>
           <h1 class="text-[#00c3d3]">طبيبك</h1>
           <h1>&</h1>
           <h1>احجز موعدك</h1>
         </div>
-
+        <div class="md:hidden text-5xl font-bold flex  flex-col gap-y-4">
+          <h1 class="text-[#00c3d3]">ابحث عن طبيبك</h1>
+          <h1>واحجز موعدك</h1>
+        </div>
         <p class="md:text-2xl text-[#646566] md:w-2/3">
           تطبيقنا الجديد سيحدث ثورة كبيرة في تجربة الرعاية الصحية في العراق!
           يتضمن التطبيق معلومات شاملة عن الأطباء والإختصاصات، وتقييمات المرضى
@@ -24,15 +27,15 @@
         </p>
 
         <div class="flex actions gap-x-4">
-          <a href="" class="w-1/4">
+          <a href="" class="md:w-1/4 w-1/2">
             <img src="../public/app-store.svg" alt=""
           /></a>
-          <a href="" class="w-1/4">
+          <a href="" class="md:w-1/4 w-1/2">
             <img src="../public/google-play.svg" alt="" />
           </a>
         </div>
       </div>
-      <div class="image-section h-fit flex justify-center items-center pt-10">
+      <div class="image-section h-fit flex justify-center items-center pt-16">
         <img
           src="../public/doctors-images/appbar-image.png"
           alt=""
