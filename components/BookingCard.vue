@@ -18,11 +18,11 @@ const props = defineProps({
 <template>
   <div class="flex">
     <div
-      class="flex justify-center content-center border-2 border-[#ffff] rounded-lg p-3 gap-x-16"
+      class="flex justify-between content-between border-2 border-[#ffff] rounded-lg p-3 md:gap-x-16  w-full"
     >
       <div class="flex flex-col">
-        <h1 class="text-2xl">{{ name }}</h1>
-        <span class="text-xl"> {{ description }}</span>
+        <h1 class="md:text-2xl">{{ name }}</h1>
+        <span class="md:text-xl"> {{ description }}</span>
       </div>
       <div
         class="flex justify-center content-center rounded-full bg-[#ffff] self-center p-2"

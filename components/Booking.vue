@@ -1,10 +1,10 @@
 <template>
   <div
-    class="bg-[#00c8d5] py-10 text-[#ffff] w-full flex flex-col gap-y-14 rounded-lg"
+    class="bg-[#00c8d5] md:py-10 text-[#ffff] w-full flex flex-col md:gap-y-14 rounded-lg gap-y-6 p-6"
   >
-    <h1 class="text-4xl font-bold text-center">أكد حجزك الان</h1>
+    <h1 class="md:text-4xl  text-3xl font-bold text-center">أكد حجزك الان</h1>
 
-    <div class="flex gap-x-12 content-center justify-center">
+    <div class="flex flex-col gap-y-6 content-center justify-center">
       <BookingCard
         name="الهاتف"
         description="07000000000"
@@ -17,7 +17,7 @@
       />
       <BookingCard
         name="التاريخ"
-        description="السبت 20/10/2021"
+        description=" 20/10/2021"
         icon="https://img.icons8.com/ios/32/081839/calendar--v1.png"
       />
       <button
@@ -28,8 +28,8 @@
     </div>
 
     <div class="flex gap-x-5 content-center justify-center">
-      <div class="flex -space-x-8 rtl:space-x-reverse">
-        <div v-for="(item, index) in 10" :key="index">
+      <div class="flex md:-space-x-8 -space-x-4 rtl:space-x-reverse">
+        <div v-for="(item, index) in 6" :key="index">
           <img
             width="60"
             height="60"
@@ -38,7 +38,7 @@
           />
         </div>
       </div>
-      <p class="text-xl self-center">
+      <p class="text-xl self-center ">
         <b>+300</b>
         تأكيد حجز المواعيد لهذا الأسبوع
       </p>
