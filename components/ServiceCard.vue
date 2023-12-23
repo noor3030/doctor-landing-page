@@ -17,7 +17,7 @@ const props = defineProps({
 
 <template>
   <div
-    class="self-center rounded-lg flex flex-col justify-center content-center items-center gap-y-2 bg-white p-5 hover:bg-[#00c8d5] hover:text-white transition-all"
+    class="self-center rounded-lg flex flex-col justify-center content-center items-center gap-y-2 bg-white p-5 hover:bg-[#00c8d5] hover:text-white transition-all w-96"
   >
     <div class="bg-[#00c8d5] rounded-full p-3 w-fit h-fit">
       <img :src="icon" alt="icon" class="w-12 h-12" />

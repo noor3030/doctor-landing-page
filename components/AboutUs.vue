@@ -1,11 +1,11 @@
 <template>
   <div
-    class="md:flex md:p-16 p-6 justify-between content-between"
+    class="md:flex md:p-16 p-6 lg:p-10 justify-between content-between"
     id="about-us"
   >
-    <div class="text-section flex flex-col gap-y-3">
-      <h1 class="text-[#00c8d5] md:text-start text-center text-3xl">من نحن</h1>
-      <div class="md:flex gap-x-3 font-bold text-3xl">
+    <div class="text-section flex flex-col gap-y-3 ">
+      <h1 class="text-[#00c8d5] md:text-start text-center text-3xl lg:text-4xl">من نحن</h1>
+      <div class="md:flex gap-x-3 font-bold text-3xl lg:text-5xl">
         <h1 class="text-[#0d1c3e]">حلول</h1>
         <h1 class="text-[#00c8d5]">الرعاية الصحية</h1>
         <h1 class="text-[#0d1c3e]">الحديثة</h1>

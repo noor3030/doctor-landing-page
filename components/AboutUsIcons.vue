@@ -23,7 +23,7 @@ const props = defineProps({
 
     <div class="flex flex-col ">
       <h1 class="text-2xl">{{ name }}</h1>
-      <p class="text-[#646566] text-base">{{ description }}</p>
+      <p class="text-[#646566] text-base lg:text-xl">{{ description }}</p>
     </div>
   </div>
 </template>

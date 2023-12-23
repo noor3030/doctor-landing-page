@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat md:p-16 p-6 h-fit"
+    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat md:p-16 p-6 h-fit lg:p-10"
     style="background-image: url(../doctors-images/background.png)"
     id="service"
   >
@@ -13,9 +13,7 @@
       <h1 class="text-[#0d1c3e]">الجودة</h1>
     </div>
 
-    <div
-      class="md:flex md:gap-x-10 justify-center content-center mt-10 flex-col flex gap-y-5"
-    >
+    <div class="justify-center content-center mt-10 flex flex-wrap gap-5">
       <ServiceCard
         name="الحجز الالكتروني"
         description="احجز موعدك الان بكل سهولة ويسر"
@@ -41,11 +39,6 @@
         description="قيم الاطباء والعيادات وشارك تجربتك مع الاخرين"
         icon="https://img.icons8.com/ios/50/FFFFFF/popular-woman.png"
       />
-    </div>
-
-    <div
-      class="md:flex md:gap-x-10 justify-center content-center mt-10 flex-col flex gap-y-5"
-    >
       <ServiceCard
         name="التنبيهات"
         description="تلقي التنبيهات والاشعارات بكل ما هو جديد"
@@ -73,5 +66,7 @@
         icon="https://img.icons8.com/material-outlined/24/FFFFFF/task.png"
       />
     </div>
+
+   
   </div>
 </template>
