@@ -21,7 +21,7 @@ const props = defineProps({
 
 <template>
   <div
-    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-5 text-white self-center"
+    class="relative overflow-hidden rounded-lg bg-cover p-5 text-white self-center"
     :style="`background-image: url(${image}) ; height:300px ; width:300px `"
   >
     <div class="bg-[#0d1c3e] w-fit text-lg p-2 rounded-lg">
@@ -36,7 +36,12 @@ const props = defineProps({
           <div
             class="w-fit p-2 rounded-xl bg-[#00c8d5] text-center text-[#0d1c3e] flex gap-x-1 mt-5"
           >
-          <img width="24" height="24" src="https://img.icons8.com/sf-black-filled/24/0d1c3e/star.png" alt="star"/>
+            <img
+              width="24"
+              height="24"
+              src="https://img.icons8.com/sf-black-filled/24/0d1c3e/star.png"
+              alt="star"
+            />
             <p class="text-lg font-bold">{{ rate }}</p>
           </div>
         </div>

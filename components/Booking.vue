@@ -1,10 +1,10 @@
 <template>
   <div
-    class="bg-[#00c8d5] md:py-10 text-[#ffff] w-full flex flex-col md:gap-y-14 rounded-lg gap-y-6 p-6 md:mt-16"
+    class="bg-[#00c8d5] md:py-10 text-[#ffff] w-full flex flex-col md:gap-y-14 rounded-lg gap-y-6 p-6 md:mt-16 lg:mt-0"
   >
     <h1 class="md:text-4xl  text-3xl font-bold text-center">أكد حجزك الان</h1>
 
-    <div class="flex flex-col gap-y-6 content-center justify-center">
+    <div class="flex flex-col gap-y-6 content-center justify-center lg:flex-row lg:gap-x-3">
       <BookingCard
         name="الهاتف"
         description="07000000000"

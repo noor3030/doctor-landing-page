@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat md:p-16 h-fit p-6"
+    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat md:p-16 lg:p-10 h-fit p-6"
     style="background-image: url(../doctors-images/background.png)"
     id="treatment"
   >
@@ -12,9 +12,7 @@
       <h1 class="text-[#0d1c3e]">لدينا</h1>
     </div>
 
-    <div
-      class="flex flex-col gap-y-5 justify-center content-center md:flex-wrap"
-    >
+    <div class="flex flex-wrap gap-2 justify-center content-center">
       <TreatmentCard
         specialization="قلع الاسنان"
         typeOfTreatment="علاج الاسنان"

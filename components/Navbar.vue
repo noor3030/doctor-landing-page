@@ -5,7 +5,7 @@
     >
       <img src="../public/logos/logo.svg" class="w-12 h-12" />
 
-      <div class="flex self-center text-center col-span-2">
+      <div class="flex self-center text-center col-span-2 lg:text-xl">
         <a href="#home" class="hover:bg-white rounded-lg p-2"> الرئيسية</a>
 
         <a href="#treatment" class="hover:bg-white rounded-lg p-2">العلاجات</a>
@@ -20,6 +20,7 @@
       </div>
     </nav>
   </div>
+
   <div class="md:hidden">
     <div
       :class="open ? ' opacity-25' : 'opacity-100'"
