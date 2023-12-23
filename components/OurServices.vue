@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat md:p-16 p-6 h-fit lg:p-10"
+    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat md:p-16 p-6 h-fit lg:p-16"
     style="background-image: url(../doctors-images/background.png)"
     id="service"
   >
@@ -13,7 +13,7 @@
       <h1 class="text-[#0d1c3e]">الجودة</h1>
     </div>
 
-    <div class="justify-center content-center mt-10 flex flex-wrap gap-5">
+    <div class="justify-between content-between mt-10 flex flex-wrap gap-5">
       <ServiceCard
         name="الحجز الالكتروني"
         description="احجز موعدك الان بكل سهولة ويسر"

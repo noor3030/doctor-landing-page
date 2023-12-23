@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:p-8 md:mt-20 p-6 lg:p-10" id="home">
+  <div class="flex flex-col md:p-8 md:mt-20 p-6 lg:p-16" id="home">
     <div class="md:grid md:grid-cols-2">
       <div
         class="text-section justify-start content-start text-start flex flex-col gap-y-5"

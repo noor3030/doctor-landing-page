@@ -1,12 +1,14 @@
 <template>
-  <div class="md:p-16 p-6" id="articles">
-    <h1 class="md:text-4xl text-3xl text-[#00c8d5] text-center mb-2">الاخبار والمدونات</h1>
+  <div class="md:p-16 p-6 lg:p-16" id="articles">
+    <h1 class="md:text-4xl text-3xl text-[#00c8d5] text-center mb-2">
+      الاخبار والمدونات
+    </h1>
 
     <h1 class="text-[#0d1c3e] md:text-5xl text-3xl font-bold text-center">
       اخر المدونات الرائجة
     </h1>
 
-    <div class="md:flex mt-10 flex flex-col justify-between content-between gap-y-6">
+    <div class="mt-10 justify-between content-between flex flex-wrap">
       <ArticlesCard
         name="الم العظام"
         description=" الألم العظمي هو ألم يصيب العظام والمفاصل والأربطة والعضلات والأوتار والأعصاب والأوعية الدموية المحيطة به"

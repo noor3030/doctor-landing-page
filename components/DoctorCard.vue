@@ -20,7 +20,7 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="bg-[#ffff] flex flex-col justify-center content-center text-center p-5 rounded-lg gap-y-4 self-center w-96"
+    class="bg-[#ffff] flex flex-col justify-center content-center text-center p-5 rounded-lg gap-y-3 self-center w-96"
   >
     <img :src="image" class="self-center rounded-lg" />
 

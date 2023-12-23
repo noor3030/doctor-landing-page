@@ -1,6 +1,6 @@
 <template>
   <div
-    class="md:flex md:p-16 p-6 lg:p-10 justify-between content-between"
+    class="md:flex md:p-16 p-6 lg:p-16 justify-between content-between"
     id="about-us"
   >
     <div class="text-section flex flex-col gap-y-3 ">

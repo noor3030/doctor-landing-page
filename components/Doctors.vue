@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-6 md:p-16 mt-16 lg:p-10"
+    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-6 md:p-16 mt-16 lg:p-16"
     style="background-image: url(../doctors-images/background.png)"
     id="doctors"
   >
@@ -13,7 +13,7 @@
       <h1 class="text-[#0d1c3e]">تقييما</h1>
     </div>
 
-    <div class="justify-center content-center mt-10 flex flex-wrap gap-5">
+    <div class="justify-between content-between mt-10 flex flex-wrap gap-5">
       <DoctorCard
         name="د. محمد عبد الرحمن"
         specialty="اخصائي الجراحة العامة"
