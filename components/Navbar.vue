@@ -3,7 +3,7 @@
     <nav
       class="py-4 px-8 bg-[#cefbfe] md:grid md:grid-cols-3 w-full fixed top-0 left-0 right-0 hidden"
     >
-      <img src="../public/logos/logo.svg" class="w-12 h-12" />
+      <img src="../public/logos/logo.svg" class="w-12 h-12 xl:w-16 xl:h-16" />
 
       <div class="flex self-center text-center col-span-2 lg:text-xl">
         <a href="#home" class="hover:bg-white rounded-lg p-2"> الرئيسية</a>

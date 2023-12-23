@@ -8,7 +8,7 @@
       اخر المدونات الرائجة
     </h1>
 
-    <div class="mt-10 justify-between content-between flex flex-wrap">
+    <div class="mt-10 justify-center content-center flex flex-wrap">
       <ArticlesCard
         name="الم العظام"
         description=" الألم العظمي هو ألم يصيب العظام والمفاصل والأربطة والعضلات والأوتار والأعصاب والأوعية الدموية المحيطة به"

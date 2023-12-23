@@ -12,7 +12,7 @@
       <h1 class="text-[#0d1c3e]">لدينا</h1>
     </div>
 
-    <div class="flex flex-wrap gap-2 justify-between content-between">
+    <div class="flex flex-wrap gap-2 justify-center content-center">
       <TreatmentCard
         specialization="قلع الاسنان"
         typeOfTreatment="علاج الاسنان"

@@ -18,7 +18,7 @@ const props = defineProps({
 <template>
   <div class="flex">
     <div
-      class="flex justify-between content-between border-2 border-[#ffff] rounded-lg p-3 md:gap-x-16 w-full lg:w-fit lg:gap-x-10"
+      class="flex justify-between content-between border-2 border-[#ffff] rounded-lg p-3 md:gap-x-16 w-full lg:w-fit lg:gap-x-10 xl:gap-x-20"
     >
       <div class="flex flex-col">
         <h1 class="md:text-2xl">{{ name }}</h1>

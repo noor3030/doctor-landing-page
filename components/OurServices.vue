@@ -13,7 +13,7 @@
       <h1 class="text-[#0d1c3e]">الجودة</h1>
     </div>
 
-    <div class="justify-between content-between mt-10 flex flex-wrap gap-5">
+    <div class="justify-center content-center mt-10 flex flex-wrap gap-5">
       <ServiceCard
         name="الحجز الالكتروني"
         description="احجز موعدك الان بكل سهولة ويسر"
@@ -66,7 +66,5 @@
         icon="https://img.icons8.com/material-outlined/24/FFFFFF/task.png"
       />
     </div>
-
-   
   </div>
 </template>

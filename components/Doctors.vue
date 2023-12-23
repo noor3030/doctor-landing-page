@@ -13,7 +13,7 @@
       <h1 class="text-[#0d1c3e]">تقييما</h1>
     </div>
 
-    <div class="justify-between content-between mt-10 flex flex-wrap gap-5">
+    <div class="justify-center content-center mt-10 flex flex-wrap gap-5">
       <DoctorCard
         name="د. محمد عبد الرحمن"
         specialty="اخصائي الجراحة العامة"

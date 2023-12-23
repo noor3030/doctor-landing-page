@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#081839] bottom-0 mt-16 text-white md:p-20 p-6">
     <img src="../public/logos/slogan.svg" class="w-36 h-36" />
-    <div class="flex flex-col gap-y-10">
+    <div class="flex flex-col gap-y-10 xl:grid xl:gap-y-0 xl:grid-cols-4 xl:gap-x-16">
       <div class="flex flex-col">
         <h1 class="text-xl">
           استمتع بتجربة طبية فريدة مع تطبيقنا الحصري الاول من نوعه وميزاته
@@ -116,10 +116,10 @@
 
       <div class="flex flex-col gap-y-6">
         <h1 class="text-2xl font-bold">لتحميل التطبيق</h1>
-        <a href="" class="w-1/2 md:w-1/5">
+        <a href="" class="w-1/2 md:w-1/5 xl:w-1/2">
           <img src="../public/app-store.svg" alt=""
         /></a>
-        <a href="" class="w-1/2 md:w-1/5">
+        <a href="" class="w-1/2 md:w-1/5 xl:w-1/2">
           <img src="../public/google-play.svg" alt="" />
         </a>
       </div>
