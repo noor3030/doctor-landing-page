@@ -1,18 +1,19 @@
 <template>
   <div
-    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-6 md:p-16 mt-16"
+    class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-6 md:p-16 mt-16 lg:p-10"
     style="background-image: url(../doctors-images/background.png)"
-    
     id="doctors"
   >
     <h1 class="md:text-5xl text-3xl text-[#00c8d5] text-center">الاطباء</h1>
-    <div class="flex md:text-5xl text-3xl gap-x-3 font-bold text-center justify-center">
+    <div
+      class="flex md:text-5xl text-3xl gap-x-3 font-bold text-center justify-center"
+    >
       <h1 class="text-[#0d1c3e]">الاطباء</h1>
       <h1 class="text-[#00c8d5]">الاكثر</h1>
       <h1 class="text-[#0d1c3e]">تقييما</h1>
     </div>
 
-    <div class="md:flex md:gap-x-10 justify-center content-center mt-10 flex-col flex gap-y-5">
+    <div class="justify-center content-center mt-10 flex flex-wrap gap-5">
       <DoctorCard
         name="د. محمد عبد الرحمن"
         specialty="اخصائي الجراحة العامة"
