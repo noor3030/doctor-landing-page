@@ -1,7 +1,7 @@
 <template>
   <div class="relative z-50">
     <nav
-      class="py-4 px-8 bg-[#cefbfe] md:flex justify-between w-full fixed top-0 left-0 right-0 hidden"
+      class="py-4 px-8 bg-[#cefbfe] md:flex justify-between w-full fixed top-0 left-0 right-0 hidden lg:px-16"
     >
       <img src="../public/logos/logo.svg" class="w-12 h-12 xl:w-16 xl:h-16" />
 

@@ -137,5 +137,17 @@
         </a>
       </div>
     </div>
+    <div
+      class="flex text-center justify-center content-center bottom-0 pt-10 text-lg gap-x-3"
+    >
+      <nuxt-link to="/privacy-policy" class="text-[#646566] hover:text-white"
+        >سياسة الخصوصية</nuxt-link
+      >
+      <nuxt-link
+        to="/terms-and-conditions"
+        class="text-[#646566] hover:text-white"
+        >الشروط والاحكام</nuxt-link
+      >
+    </div>
   </div>
 </template>
