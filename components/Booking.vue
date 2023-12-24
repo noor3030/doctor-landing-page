@@ -9,7 +9,7 @@
     >
       <BookingCard
         name="الهاتف"
-        description="07000000000"
+        description="07815452962"
         icon="https://img.icons8.com/ios/32/081839/phone--v1.png"
       />
       <BookingCard
