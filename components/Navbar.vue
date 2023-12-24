@@ -1,22 +1,81 @@
 <template>
   <div class="relative z-50">
     <nav
-      class="py-4 px-8 bg-[#cefbfe] md:grid md:grid-cols-3 w-full fixed top-0 left-0 right-0 hidden"
+      class="py-4 px-8 bg-[#cefbfe] md:flex justify-between w-full fixed top-0 left-0 right-0 hidden"
     >
       <img src="../public/logos/logo.svg" class="w-12 h-12 xl:w-16 xl:h-16" />
 
-      <div class="flex self-center text-center col-span-2 lg:text-xl">
-        <a href="#home" class="hover:bg-white rounded-lg p-2"> الرئيسية</a>
+      <div class="flex self-center text-center lg:text-xl">
+        <a
+          href="#home"
+          class="hover:bg-[#00c8d5] hover:text-white rounded-lg p-2"
+        >
+          الرئيسية</a
+        >
 
-        <a href="#treatment" class="hover:bg-white rounded-lg p-2">العلاجات</a>
-        <a href="#about-us" class="hover:bg-white rounded-lg p-2">من نحن </a>
-        <a href="#service" class="hover:bg-white rounded-lg p-2">الخدمات</a>
+        <a
+          href="#treatment"
+          class="hover:bg-[#00c8d5] hover:text-white rounded-lg p-2"
+          >العلاجات</a
+        >
+        <a
+          href="#about-us"
+          class="hover:bg-[#00c8d5] hover:text-white rounded-lg p-2"
+          >من نحن
+        </a>
+        <a
+          href="#service"
+          class="hover:bg-[#00c8d5] hover:text-white rounded-lg p-2"
+          >الخدمات</a
+        >
 
-        <a href="#doctors" class="hover:bg-white rounded-lg p-2">الاطباء</a>
-        <a href="#articles" class="hover:bg-white rounded-lg p-2">المدونات </a>
-        <a href="contact-us" class="hover:bg-white rounded-lg p-2"
+        <a
+          href="#doctors"
+          class="hover:bg-[#00c8d5] hover:text-white rounded-lg p-2"
+          >الاطباء</a
+        >
+        <a
+          href="#articles"
+          class="hover:bg-[#00c8d5] hover:text-white rounded-lg p-2"
+          >المدونات
+        </a>
+        <a
+          href="contact-us"
+          class="hover:bg-[#00c8d5] hover:text-white rounded-lg p-2"
           >تواصل معنا</a
         >
+      </div>
+
+      <div class="flex content-center items-center gap-x-2">
+        <a href="https://www.facebook.com/iq.care1">
+          <img
+            width="32"
+            height="32"
+            src="https://img.icons8.com/ios-glyphs/32/00c8d5/facebook-new.png"
+            alt="facebook-new"
+        /></a>
+        <a href="https://www.instagram.com/iq.care"
+          ><img
+            width="32"
+            height="32"
+            src="https://img.icons8.com/ios-glyphs/32/00c8d5/instagram-new.png"
+            alt="instagram-new"
+        /></a>
+        <a href="https://www.tiktok.com/@iq.care">
+          <img
+            width="32"
+            height="32"
+            src="https://img.icons8.com/ios-filled/32/00c8d5/tiktok--v1.png"
+            alt="tiktok--v1"
+        /></a>
+
+        <a href="https://wa.me/+9647815452962">
+          <img
+            width="32"
+            height="32"
+            src="https://img.icons8.com/ios-filled/32/00c8d5/whatsapp--v1.png"
+            alt="whatsapp--v1"
+        /></a>
       </div>
     </nav>
   </div>
@@ -62,6 +121,38 @@
         </li>
         <li>
           <a href="contact-us">تواصل معنا</a>
+        </li>
+
+        <li class="flex justify-center gap-x-2">
+          <a href="https://www.facebook.com/iq.care1">
+            <img
+              width="32"
+              height="32"
+              src="https://img.icons8.com/ios-glyphs/32/00c8d5/facebook-new.png"
+              alt="facebook-new"
+          /></a>
+          <a href="https://www.instagram.com/iq.care"
+            ><img
+              width="32"
+              height="32"
+              src="https://img.icons8.com/ios-glyphs/32/00c8d5/instagram-new.png"
+              alt="instagram-new"
+          /></a>
+          <a href="https://www.tiktok.com/@iq.care">
+            <img
+              width="32"
+              height="32"
+              src="https://img.icons8.com/ios-filled/32/00c8d5/tiktok--v1.png"
+              alt="tiktok--v1"
+          /></a>
+
+          <a href="https://wa.me/+9647815452962">
+            <img
+              width="32"
+              height="32"
+              src="https://img.icons8.com/ios-filled/32/00c8d5/whatsapp--v1.png"
+              alt="whatsapp--v1"
+          /></a>
         </li>
       </ul>
     </nav>
