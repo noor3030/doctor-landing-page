@@ -40,7 +40,7 @@
           >المدونات
         </a>
         <a
-          href="contact-us"
+          href="#contact-us"
           class="hover:bg-[#00c8d5] hover:text-white rounded-lg p-2"
           >تواصل معنا</a
         >
@@ -120,7 +120,7 @@
           <a href="#articles">المدونات </a>
         </li>
         <li>
-          <a href="contact-us">تواصل معنا</a>
+          <a href="#contact-us">تواصل معنا</a>
         </li>
 
         <li class="flex justify-center gap-x-2">
