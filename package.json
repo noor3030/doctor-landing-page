@@ -7,7 +7,8 @@
     "dev": "cross-env NUXT_HOST=0.0.0.0 NUXT_PORT=3333 nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "npm run generate && npx tailwindcss -o build.css --minify && firebase deploy"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
