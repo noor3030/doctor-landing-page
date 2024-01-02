@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "care-landing",
-    "public": "build/web",
+    "public": ".output/public",
     "ignore": [
       "firebase.json",
       "**/.*",
