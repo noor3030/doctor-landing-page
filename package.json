@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "npm run generate && npx tailwindcss -o build.css --minify && firebase deploy"
+    "deploy": "npm run generate && npx tailwindcss -o build.css --minify && firebase deploy --only hosting:care-landing"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
